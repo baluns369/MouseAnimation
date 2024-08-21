@@ -1,7 +1,7 @@
 document.addEventListener('mousemove', (e) => {
     const pointer = document.querySelector('.pointer');
-    pointer.style.left = ${e.pageX}px;
-    pointer.style.top = ${e.pageY}px;
+    pointer.style.left = `${e.pageX}px`;
+    pointer.style.top = `${e.pageY}px`;
 
     const colors = ['red', 'green', 'blue', 'orange'];
     const colorIndex = Math.floor(Math.random() * colors.length);
